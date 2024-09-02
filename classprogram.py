@@ -14,3 +14,9 @@ class Dog(Animal):
 
     def make_sound(self):
         return "Woof!"
+
+    def fetch(self, item):
+        return f"{self.name} is fetching the {item}!"
+
+    def sit(self):
+        return f"{self.name} sits obediently."
